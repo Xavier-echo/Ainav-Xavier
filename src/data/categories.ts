@@ -1,0 +1,68 @@
+import { Category } from '../types';
+
+export const categories: Category[] = [
+  {
+    id: 'markdown-basics',
+    name: 'Markdown 基础',
+    description: '从零开始学习 Markdown 语法，掌握标题、列表、代码块等核心元素',
+    icon: 'FileText',
+    color: '#6366f1',
+    resourceCount: 12,
+  },
+  {
+    id: 'prompt-engineering',
+    name: '提示词工程',
+    description: '学会如何向 AI 清晰地表达需求，写出高质量的 Prompt',
+    icon: 'Sparkles',
+    color: '#f59e0b',
+    resourceCount: 15,
+  },
+  {
+    id: 'requirement-writing',
+    name: '需求文档编写',
+    description: '掌握用结构化文档描述功能需求、交互流程和技术约束的方法',
+    icon: 'ClipboardList',
+    color: '#10b981',
+    resourceCount: 10,
+  },
+  {
+    id: 'ai-collaboration',
+    name: 'AI 协作技巧',
+    description: '了解如何与 AI 高效协作，迭代优化输出结果',
+    icon: 'Bot',
+    color: '#3b82f6',
+    resourceCount: 8,
+  },
+  {
+    id: 'project-planning',
+    name: '项目规划',
+    description: '学习如何将大项目拆解为可执行的小任务，制定合理的开发计划',
+    icon: 'LayoutGrid',
+    color: '#ec4899',
+    resourceCount: 9,
+  },
+  {
+    id: 'code-review',
+    name: '代码审查',
+    description: '学会用文档指导 AI 进行代码审查，提升代码质量',
+    icon: 'Code2',
+    color: '#8b5cf6',
+    resourceCount: 7,
+  },
+  {
+    id: 'debugging',
+    name: '调试与排错',
+    description: '掌握向 AI 描述 Bug 的技巧，快速定位和解决问题',
+    icon: 'Bug',
+    color: '#ef4444',
+    resourceCount: 6,
+  },
+  {
+    id: 'best-practices',
+    name: '最佳实践',
+    description: '收集社区中验证过的优秀实践案例和模板',
+    icon: 'Award',
+    color: '#14b8a6',
+    resourceCount: 11,
+  },
+];
